@@ -38,11 +38,11 @@ const studenti = [
 
 for ( i=0; i < studenti.length; i++) {
     const theseStudents = studenti[i];
-      
-    for ( let key in theseStudents ) {
-        console.log ( theseStudents[key] );
-    }
+       
+    console.log ( theseStudents['nome'] );
+    console.log ( theseStudents['cognome'] );
 }
+
 
 // ES. 3 
 const newName = prompt ('Inserire nome studente');
